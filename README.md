@@ -1,2 +1,8 @@
 # git-workshop-2020
-Repositorio sandbox para el taller de git para DMS (curso 2020-2021)
+Repositorio sandbox para el taller de git para DMS
+
+## Clonado de un repositorio
+
+```bash
+git clone DIRECCION_REPOSITORIO [NOMBRE_REPOSITORIO]
+```
