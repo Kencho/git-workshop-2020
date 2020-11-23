@@ -3,8 +3,6 @@ Repositorio sandbox para el taller de git para DMS
 
 ## Clonado de un repositorio
 
-## Otro encabezado
-
 A continuación se muestra la sintaxis del clonado local de repositorios.
 
 ```bash
