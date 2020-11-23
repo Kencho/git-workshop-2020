@@ -1,7 +1,6 @@
 # git-workshop-2020
 Repositorio sandbox para el taller de git para DMS
 
-## Clonado cuatro
 ## Clonado de un repositorio
 
 ## Otro encabezado
