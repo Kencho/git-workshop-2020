@@ -1,7 +1,7 @@
 # git-workshop-2020
 Repositorio sandbox para el taller de git para DMS
 
-## Clonado dos
+## Clonado Tres
 ## Clonado de un repositorio
 
 A continuación se muestra la sintaxis del clonado local de repositorios.
