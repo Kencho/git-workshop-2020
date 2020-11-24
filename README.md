@@ -83,4 +83,40 @@ Si de los ficheros solo quisiéramos agregar partes específicas, es posible con
 git add --interactive RUTA_A_AÑADIR_RECURSIVAMENTE
 ```
 
+Si por el contrario quisiéramos eliminar ficheros en seguimiento, se haría con `git rm` (**Atención: Esto borra el fichero localmente y habría que recuperarlo de una versión anterior**)
 
+```bash
+git add README.md
+git status
+```
+
+```
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+        modificado:     README.md
+```
+
+Si quisiéramos ver las diferencias ya confirmadas en el _stage_, usamos:
+
+```bash
+git diff --cached
+```
+
+Una vez listo el _stage_, es hora de contribuir los cambios cerrando el commit con `git commit`:
+
+```bash
+git commit
+```
+
+Se abrirá un editor para especificar un mensaje/descripción para el commit. Si se quiere definir desde el propio comando:
+
+```bash
+git commit -m "La primera línea (máx. 60-70 caracteres) se usará como título
+
+El resto de líneas serán la descripción del commit."
+```
+
+Si todo va bien, este cambio quedará cerrado localmente en el espacio de trabajo, listo para subirse al repositorio configurado.
