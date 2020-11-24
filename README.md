@@ -105,6 +105,12 @@ Si quisiéramos ver las diferencias ya confirmadas en el _stage_, usamos:
 git diff --cached
 ```
 
+Es posible sacar cambios del _stage_ (pero no perderlos localmente) con `git restore --staged`:
+
+```bash
+git restore --staged RUTA_A_SACAR_DEL_STAGE
+```
+
 Una vez listo el _stage_, es hora de contribuir los cambios cerrando el commit con `git commit`:
 
 ```bash
